@@ -2,10 +2,10 @@ package com.spdu.model;
 
 public enum Measure {
 
-    KILOGRAM("кг"),
-    LITER("л"),
-    PACK("уп"),
-    PIECE("шт");
+    KILOGRAM("kg"),
+    LITER("l"),
+    PACK("pack"),
+    PIECE("pc");
 
     private final String title;
 

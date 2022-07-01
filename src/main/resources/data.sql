@@ -1,23 +1,23 @@
-INSERT INTO product (id, name, measure, category, price) VALUES (1, 'Борошно', 'KILOGRAM', 'GROCERY', 50);
-INSERT INTO product (id, name, measure, category, price) VALUES (2, 'Яйця', 'PACK', 'GROCERY', 26);
-INSERT INTO product (id, name, measure, category, price) VALUES (3, 'Кетчуп гострий', 'KILOGRAM', 'SOUCE', 54);
-INSERT INTO product (id, name, measure, category, price) VALUES (4, 'Сир голандський', 'KILOGRAM', 'DAIRY', 140);
-INSERT INTO product (id, name, measure, category, price) VALUES (5, 'Ковбаса Салямі', 'KILOGRAM', 'MEAT', 185);
-INSERT INTO product (id, name, measure, category, price) VALUES (6, 'Кукурудза', 'KILOGRAM', 'GROCERY', 60);
-INSERT INTO product (id, name, measure, category, price) VALUES (7, 'Капуста Пекінська', 'PIECE', 'VEGETABLES', 20);
-INSERT INTO product (id, name, measure, category, price) VALUES (8, 'Курка копчена', 'KILOGRAM', 'MEAT', 300);
-INSERT INTO product (id, name, measure, category, price) VALUES (9, 'Майонез', 'KILOGRAM', 'GROCERY', 120);
-INSERT INTO product (id, name, measure, category, price) VALUES (10, 'Сухарі', 'KILOGRAM', 'GROCERY', 79);
-INSERT INTO product (id, name, measure, category, price) VALUES (11, 'Творог', 'KILOGRAM', 'DAIRY', 100);
-INSERT INTO product (id, name, measure, category, price) VALUES (12, 'Згущене молоко', 'PIECE', 'DAIRY', 180);
-INSERT INTO product (id, name, measure, category, price) VALUES (13, 'Цукор', 'KILOGRAM', 'GROCERY', 42);
-INSERT INTO product (id, name, measure, category, price) VALUES (14, 'Родзинки', 'KILOGRAM', 'GROCERY', 125);
-INSERT INTO product (id, name, measure, category, price) VALUES (15, 'Яблука', 'KILOGRAM', 'FRUITS', 12);
+INSERT INTO product (id, name, measure, category, price) VALUES (1, 'Flour', 'KILOGRAM', 'GROCERY', 50);
+INSERT INTO product (id, name, measure, category, price) VALUES (2, 'Eggs', 'PACK', 'GROCERY', 26);
+INSERT INTO product (id, name, measure, category, price) VALUES (3, 'Ketchup is spicy', 'KILOGRAM', 'SOUCE', 54);
+INSERT INTO product (id, name, measure, category, price) VALUES (4, 'Dutch cheese', 'KILOGRAM', 'DAIRY', 140);
+INSERT INTO product (id, name, measure, category, price) VALUES (5, 'Salami sausage', 'KILOGRAM', 'MEAT', 185);
+INSERT INTO product (id, name, measure, category, price) VALUES (6, 'Corn', 'KILOGRAM', 'GROCERY', 60);
+INSERT INTO product (id, name, measure, category, price) VALUES (7, 'Beijing cabbage', 'PIECE', 'VEGETABLES', 20);
+INSERT INTO product (id, name, measure, category, price) VALUES (8, 'Smoked chicken', 'KILOGRAM', 'MEAT', 300);
+INSERT INTO product (id, name, measure, category, price) VALUES (9, 'Mayonnaise', 'KILOGRAM', 'GROCERY', 120);
+INSERT INTO product (id, name, measure, category, price) VALUES (10, 'Crackers', 'KILOGRAM', 'GROCERY', 79);
+INSERT INTO product (id, name, measure, category, price) VALUES (11, 'Cottage cheese', 'KILOGRAM', 'DAIRY', 100);
+INSERT INTO product (id, name, measure, category, price) VALUES (12, 'Condensed milk', 'PIECE', 'DAIRY', 180);
+INSERT INTO product (id, name, measure, category, price) VALUES (13, 'Sugar', 'KILOGRAM', 'GROCERY', 42);
+INSERT INTO product (id, name, measure, category, price) VALUES (14, 'Raisins', 'KILOGRAM', 'GROCERY', 125);
+INSERT INTO product (id, name, measure, category, price) VALUES (15, 'Apples', 'KILOGRAM', 'FRUITS', 12);
 
-INSERT INTO recipe (id, name) VALUES (1, 'Піцца Везувій');
-INSERT INTO recipe (id, name) VALUES (2, 'Салат Цезар');
+INSERT INTO recipe (id, name) VALUES (1, 'Pizza Vesuvius');
+INSERT INTO recipe (id, name) VALUES (2, 'Salad Cesar');
 INSERT INTO recipe (id, name) VALUES (3, 'Млинці з творогом і згущеним молоком');
-INSERT INTO recipe (id, name) VALUES (4, 'Узвар з яблук');
+INSERT INTO recipe (id, name) VALUES (4, 'Uzvar from apples');
 
 -- Піцца Везувій
 INSERT INTO recipe_ingredient (recipe_id, product_id, amount) VALUES (1, 1, 0.5);

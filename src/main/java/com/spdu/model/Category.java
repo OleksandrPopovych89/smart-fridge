@@ -2,15 +2,15 @@ package com.spdu.model;
 
 public enum Category {
 
-    MEAT("м'ясо"),
-    FISH("риба"),
-    SOUCE("соуси"),
-    GROCERY("бакалія"),
-    VEGETABLES("овочі"),
-    FRUITS("фрукти"),
-    SPICES("спеції"),
-    BAKERY("випічка"),
-    DAIRY("молочка");
+    MEAT("meat"),
+    FISH("fish"),
+    SOUCE("souses"),
+    GROCERY("grocery"),
+    VEGETABLES("vegetables"),
+    FRUITS("fruits"),
+    SPICES("spices"),
+    BAKERY("backing"),
+    DAIRY("dairy products");
 
     private final String title;
 
